@@ -1,0 +1,76 @@
+# --- OS ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- Visual Studio / MSBuild ---
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.log
+
+# --- .NET ---
+**/bin/
+**/obj/
+**/out/
+**/publish/
+*.cache
+artifacts/
+
+# --- NuGet ---
+**/packages/
+*.nupkg
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- VS Code (личные настройки) ---
+.vscode/*
+!.vscode/extensions.json
+
+
+# --- Покрытие / тесты ---
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# --- Node / фронтенд ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Секреты и локальные конфиги ---
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.*.local.json
+**/secrets.json
+
+# --- БД: скрипты и локальные инструкции (не для репозитория) ---
+backend/CityLeisure.Api/scripts/
+*.sql
+Инструкция*.txt
+*инструкция*.txt
+
+# --- Вспомогательные скрипты разработки ---
+frontend/scripts/
